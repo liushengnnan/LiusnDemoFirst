@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22758DA61CE59FC80007DC0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22758DA51CE59FC80007DC0B /* main.m */; };
-		22758DA91CE59FC80007DC0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22758DA81CE59FC80007DC0B /* AppDelegate.m */; };
+		222FE1931CE5A2FA00652349 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 222FE1911CE5A2FA00652349 /* AppDelegate.m */; };
+		222FE1941CE5A2FA00652349 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 222FE1921CE5A2FA00652349 /* main.m */; };
 		22758DAC1CE59FC80007DC0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22758DAB1CE59FC80007DC0B /* ViewController.m */; };
 		22758DAF1CE59FC80007DC0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22758DAD1CE59FC80007DC0B /* Main.storyboard */; };
 		22758DB11CE59FC80007DC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22758DB01CE59FC80007DC0B /* Assets.xcassets */; };
 		22758DB41CE59FC80007DC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22758DB21CE59FC80007DC0B /* LaunchScreen.storyboard */; };
+		E06F2537BBED3F4713D5DB0F /* libPods-LiusnDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC0BC2D598B701235293308 /* libPods-LiusnDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		222FE1901CE5A2FA00652349 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Main/AppDelegate.h; sourceTree = "<group>"; };
+		222FE1911CE5A2FA00652349 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Main/AppDelegate.m; sourceTree = "<group>"; };
+		222FE1921CE5A2FA00652349 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Main/main.m; sourceTree = "<group>"; };
 		22758DA11CE59FC80007DC0B /* LiusnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiusnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		22758DA51CE59FC80007DC0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		22758DA71CE59FC80007DC0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		22758DA81CE59FC80007DC0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		22758DAA1CE59FC80007DC0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		22758DAB1CE59FC80007DC0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		22758DAE1CE59FC80007DC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22758DB01CE59FC80007DC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22758DB31CE59FC80007DC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22758DB51CE59FC80007DC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3C5F1B88658CA2553BE3EB5 /* Pods-LiusnDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiusnDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiusnDemo/Pods-LiusnDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EC79EA4874D50F903E796384 /* Pods-LiusnDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiusnDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiusnDemo/Pods-LiusnDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EFC0BC2D598B701235293308 /* libPods-LiusnDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiusnDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E06F2537BBED3F4713D5DB0F /* libPods-LiusnDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222FE18E1CE5A28600652349 /* CommonFramework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CommonFramework;
+			sourceTree = "<group>";
+		};
+		222FE18F1CE5A2A500652349 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				222FE1901CE5A2FA00652349 /* AppDelegate.h */,
+				222FE1911CE5A2FA00652349 /* AppDelegate.m */,
+				222FE1921CE5A2FA00652349 /* main.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		22758D981CE59FC80007DC0B = {
 			isa = PBXGroup;
 			children = (
 				22758DA31CE59FC80007DC0B /* LiusnDemo */,
 				22758DA21CE59FC80007DC0B /* Products */,
+				7C905A38E146205721023EF7 /* Pods */,
+				E8FB6AC95A3760DC68EC64E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +82,8 @@
 		22758DA31CE59FC80007DC0B /* LiusnDemo */ = {
 			isa = PBXGroup;
 			children = (
-				22758DA71CE59FC80007DC0B /* AppDelegate.h */,
-				22758DA81CE59FC80007DC0B /* AppDelegate.m */,
+				222FE18F1CE5A2A500652349 /* Main */,
+				222FE18E1CE5A28600652349 /* CommonFramework */,
 				22758DAA1CE59FC80007DC0B /* ViewController.h */,
 				22758DAB1CE59FC80007DC0B /* ViewController.m */,
 				22758DAD1CE59FC80007DC0B /* Main.storyboard */,
@@ -74,9 +98,25 @@
 		22758DA41CE59FC80007DC0B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				22758DA51CE59FC80007DC0B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C905A38E146205721023EF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3C5F1B88658CA2553BE3EB5 /* Pods-LiusnDemo.debug.xcconfig */,
+				EC79EA4874D50F903E796384 /* Pods-LiusnDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8FB6AC95A3760DC68EC64E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC0BC2D598B701235293308 /* libPods-LiusnDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22758DB81CE59FC80007DC0B /* Build configuration list for PBXNativeTarget "LiusnDemo" */;
 			buildPhases = (
+				99BF518B5C33C3125573A9FF /* 📦 Check Pods Manifest.lock */,
 				22758D9D1CE59FC80007DC0B /* Sources */,
 				22758D9E1CE59FC80007DC0B /* Frameworks */,
 				22758D9F1CE59FC80007DC0B /* Resources */,
+				ABC70331AEA85AD84E626AE6 /* 📦 Embed Pods Frameworks */,
+				0CEFA1A1762BD9BE519E904C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +187,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CEFA1A1762BD9BE519E904C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiusnDemo/Pods-LiusnDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BF518B5C33C3125573A9FF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC70331AEA85AD84E626AE6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiusnDemo/Pods-LiusnDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22758D9D1CE59FC80007DC0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222FE1941CE5A2FA00652349 /* main.m in Sources */,
+				222FE1931CE5A2FA00652349 /* AppDelegate.m in Sources */,
 				22758DAC1CE59FC80007DC0B /* ViewController.m in Sources */,
-				22758DA91CE59FC80007DC0B /* AppDelegate.m in Sources */,
-				22758DA61CE59FC80007DC0B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +352,7 @@
 		};
 		22758DB91CE59FC80007DC0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C5F1B88658CA2553BE3EB5 /* Pods-LiusnDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LiusnDemo/Info.plist;
@@ -272,6 +364,7 @@
 		};
 		22758DBA1CE59FC80007DC0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC79EA4874D50F903E796384 /* Pods-LiusnDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LiusnDemo/Info.plist;
@@ -300,6 +393,7 @@
 				22758DBA1CE59FC80007DC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
